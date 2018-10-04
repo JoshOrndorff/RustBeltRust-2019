@@ -20,6 +20,7 @@
         Styles specific for this example presentation.
     -->
     <link href="css/markdown-slides.css" rel="stylesheet" />
+    <link href="css/slide-hacks.css" rel="stylesheet" />
 
 </head>
 
@@ -73,34 +74,50 @@ Bottom line: Your agenda is my agenda
 </div>
 <div class="step slide" data-rel-x="0" data-rel-y="1200">
 
-<h1>The Rho VM</h1>
+  <h1>The Rho VM</h1>
+  <div id="rho-vm">
+    <div id="building-blocks">
+      <h2>BuildingBlocks</h2>
+      <img src="images/buildingBlocks.png" />
+    </div>
+    <div id="sends">
+      <h2>Sends</h2>
+      <img src="images/send.png" />
+    </div>
+    <div id="receives">
+      <h2>Receives</h2>
+      <img src="images/receive.png" />
+    </div>
 
-<h2>BuildingBlocks</h2>
-<img src="images/buildingBlocks.png" />
-
-<h2>Sends and Receives</h2>
-<img src="images/send.png" />
-<img src="images/receive.png" />
+  </div>
 
 </div>
 <div class="step slide" data-rel-x="0" data-rel-y="1200">
-<h1>Tuplespace Semantics</h1>
-<h2>Tuplespace</h2>
-<img src="images/send.png" />
-<img src="images/send.png" />
-<img src="images/send.png" />
-<img src="images/receive.png" />
-<img src="images/receive.png" />
+  <h1>Tuplespace Semantics</h1>
 
-<h1>Process Pool</h1>
-<img src="images/process.png" />
-<img src="images/process.png" />
+  <div id="tuplespace-semantics">
+    <div class="semantic">
+      <h2>Tuplespace</h2>
+      <img src="images/send.png" />
+      <img src="images/send.png" />
+      <img src="images/send.png" />
+      <img src="images/receive.png" />
+      <img src="images/receive.png" />
+    </div>
+    <div class="semantic">
+      <h2>Process Pool</h2>
+      <img src="images/process.png" />
+      <img src="images/process.png" />
+      <img src="images/process.png" />
+    </div>
+
+  </div>
 
 </div>
 <div class="step slide" data-rel-x="0" data-rel-y="1200">
 
 <h1>Rholang Syntax</h1>
-Rholang expresses the Rho VM plus some conveniences.
+Rholang expresses the Rho VM plus <del>some</del> several conveniences.
 <img class="full" src="images/cheatSheet.png" style="height: 600px;" />
 
 

@@ -1,0 +1,29 @@
+#rho-vm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#building-blocks {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#sends {
+
+}
+
+#receives {
+
+}
+
+/* */
+
+#tuplespace-semantics {
+  display: flex;
+}
+
+.semantic {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+}
