@@ -1,0 +1,1 @@
+Learn to develop smart contracts in the fully-concurrent correct-by-construction programming language Rholang. Joshy will make concurrency and contract safety understandable and cover fundamentals of the RChain platform along the way .
