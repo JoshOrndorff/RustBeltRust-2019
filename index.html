@@ -31,85 +31,126 @@
 
 <div id="impress" data-transition-duration="1000">
 
-<div id="markdown" class="step slide markdown" data-rel-x="0" data-rel-y="900">
+<div class="step slide" data-rel-x="0" data-rel-y="900">
 
-# Writing Fully-Concurrent Smart Contracts in Rholang
-![logo](images/RChainLogo.png)
-* Joshy Orndorff
-* RChain Cooperative
-* 08 October 2018
+<h1>Writing Fully-Concurrent Smart Contracts in Rholang</h1>
+<img src="images/RChainLogo.png" />
+<ul>
+  <li>Joshy Orndorff</li>
+  <li>RChain Cooperative</li>
+  <li>08 October 2018</li>
+</ul>
 
------
+</div>
+<div class="step slide markdown" data-rel-x="0" data-rel-y="900">
 
 # Get Prepared
 
 * Download Cryptofex
 * Download RNode
-* Find my tutorial
+* These Slides: [https://github.com/JoshOrndorff/SFBlockchainWeek-Presentation.git](https://github.com/JoshOrndorff/SFBlockchainWeek-Presentation.git)
 
 -----
 
-# Plan
+# Tentative Plan
 
-* Rholang Fundamentals
-* Rholang Basics
-* Rholang Work
-* Dapp Demos
-* Open Lab Time
+* 3:00 Setup, Intro, RChain Platform
+* 3:30 Rholang Fundamentals
+* 4:00 Rholang Exercises and Practice
+* 4:30 Full Dapp Demos and Lab Time
+
+Bottom line: Your agenda is my agenda
 
 -----
 
 # RChain Value Adds
 
+* Concurrency
+* Scalability
+* Casper Proof of Stake
+* Correct by Construction
+
 -----
 
-# RChain Fundamental Abstractions
+# What's a Tuplespace?
 
------
-
-# Rholang Basics
-## Send, receive, comm event
-
-
+Stuff from Greg's boulder talk
+* Send, receive, comm event
+* Names and Processes
 
 -----
 
 # Rholang Demonstration
 
-I'll code up a few things and they can watch
-Give out the cheat sheet.
+Give out the cheat sheet
+## Examples
+* Simple comm event
+* Powerbox
+* Contracts, Persistence
+* Unforgeable names
+
+Like group learning? Come to my office hours!
 
 -----
 
-# Rholang Lab Time
+# Rholang Exercises
+* Tutorial is a great place to start
+  * Website version: [https://www.rchain.coop/learn-rholang](https://www.rchain.coop/learn-rholang)
+  * Github version: [http://guthub.com/joshorndorff/LearnRholangByExample](http://guthub.com/joshorndorff/LearnRholangByExample)
 * Beginner
- *
-
+  * Number doubler (Arithmetic)
+  * Hello user (String operations)
+  * Absolute value (`if` / `else`)
 * Intermediate
-  * Binary search
-
+  * max / min (lists, recursion)
 * Expert
+  * Binary search
+  *
 
------
+</div>
 
-# nth Caller Game
+<div class="step">
+  <h2>Nth Caller Dapp</h2>
+  <img class = "full" src="images/radio.jpg" />
+  <p>Call in now, 10th caller wins concert tickets!</p>
+</div>
 
------
 
-# Status Game
+<div class = "step">
+  <h2>Nth Caller Architecture</h2>
+  <img class = "full" src="images/arch1.png" />
+  <ul>
+    <li>How to set this up</li>
+    <li>Check out the code</li>
+    <li>Build it yourself!</li>
+    <li><a href="https://github.com/JoshOrndorff/nth-caller-game">https://github.com/JoshOrndorff/nth-caller-game</a></li>
+  </ul>
+</div>
 
------
+<div class="step">
+  <h2>Status Dapp</h2>
+  <img class = "full" src="images/facebook.png" />
+  <p>Greg M: We need to reboot social media, and express sentiment on-chain</p>
+  <p>(Name registry coming this week!)</p>
+</div>
 
-# Dapp infrastructure
-* RChain-API
-* RSign
+<div class="step">
+  <h2>RSign Browser Extension</h2>
+  <img class = "full" src="images/arch2.png" />
+  <ul>
+    <li>Make cyrptographic sigs easier for Dapp devs and users</li>
+    <li>More realistic security model</li>
+    <li>Still under active development</li>
+    <li><a href="https://github.com/dckc/RSign">https://github.com/dckc/RSign</a></li>
+  </ul>
+</div>
 
------
-
-# Stay involved
-* Join our community
-* Join our discord
-* Attend my office hours
+<div class="step slide markdown" data-rel-x="0" data-rel-y="900">
+# Stay Involved
+* [Join the coop](https://www.rchain.coop/community)
+* Chat in [discord](https://discord.gg/fvY8qhx)
+* Attend my [office hours](https://zoom.us/j/6853551826)
+  Thursdays at 7:00 AM
 
 -----
 
@@ -117,37 +158,6 @@ Give out the cheat sheet.
 * Continue rholang challenges
 </div>
 
-<div id="title-slide" class="step slide title markdown" data-x="2000" data-y="5000">
-# Title slide
-## This slide has different CSS class than the previous ones
-</div>
-
-
-<div id="tilted-slide" class="step slide markdown" data-rotate="-85" data-x="2000" data-y="2000" data-z="1000" data-scale="4">
-# Simplicity of Markdown & Full power of Impress.js
-
-* This slide sets its own `rotate`, `x`, `y`, and even `z` coordinates
-* Note that the Mother Teresa slide earlier was pimped with some custom CSS, all the while
-  the content was written in simple Markdown.
-</div>
-
-
-
-
-<div id="js-slide" class="step slide" data-rotate="0" data-x="4000" data-y="5000">
-<h1>CSS &amp; JavaScript magic</h1>
-
-<p>Just to emphasize my point, this last slide allows you to use a JavaScript powered menu to
-toggle the CSS style:</p>
-
-
-<p>Simplicity of Markdown married with full power of Impress.js!</p>
-
-</div>
-
-
-<div id="overview" class="step" data-x="5000" data-y="4000" data-scale="10" style="pointer-events: none;" data-rotate="5">
-</div>
 
 </div>
 
