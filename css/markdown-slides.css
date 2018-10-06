@@ -154,6 +154,11 @@ img.full {
   width: 100%;
 }
 
+#final-logo {
+  width: 50%;
+  margin-left: 27%;
+}
+
 
 /*
     Specific styles for: .title steps

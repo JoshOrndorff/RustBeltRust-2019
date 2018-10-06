@@ -1,3 +1,22 @@
+
+#value-adds {
+  display: flex;
+}
+
+.value-add {
+  margin: 5px;
+}
+
+.value-add img {
+  border-radius: 20px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+/******************************/
+
 #rho-vm {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -16,7 +35,7 @@
 
 }
 
-/* */
+/******************************/
 
 #tuplespace-semantics {
   display: flex;
