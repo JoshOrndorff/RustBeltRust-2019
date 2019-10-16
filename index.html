@@ -1,23 +1,16 @@
 <!doctype html>
 
-<!--
-  A presentation done entirely in Markdown, as found in extras/markdown/.
-
-  By: @henrikingo
--->
-
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Rholang Development Wrokshop</title>
+    <title>Write a Blockchain Runtime with Substrate</title>
 
-    <meta name="description" content="Learn and practice the fundamentals of developing on the RChain platform." />
+    <meta name="description" content="Learn and practice the fundamentals of developing blockchains with Parity Substrate." />
     <meta name="author" content="Joshy Orndorff" />
     <link rel="stylesheet" href="impress.js/extras/highlight/styles/github.css">
 
-
     <!--
-        Styles specific for this example presentation.
+        Styles specific for this presentation.
     -->
     <link href="css/markdown-slides.css" rel="stylesheet" />
     <link href="css/slide-hacks.css" rel="stylesheet" />
@@ -27,62 +20,49 @@
 <body class="impress-not-supported">
 <div class="fallback-message">
     <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    <p>For the best experience please use the latest <b>Firefox</b> browser.</p>
 </div>
 
 <div id="impress" data-transition-duration="1000">
 
 <div class="step slide" data-rel-x="0" data-rel-y="1200">
 
-<h1>Writing Fully-Concurrent Smart Contracts in Rholang</h1>
-<img class="right" src="images/RChainLogo.png" />
+<h1>Write a Blockchain with Substrate</h1>
+<img class="right" src="images/SubstrateLogo.png" />
 <ul>
   <li>Joshy Orndorff</li>
-  <li>RChain Cooperative</li>
-  <li>08 October 2018</li>
+  <li>Parity Technologies</li>
+  <li>18 October 2019</li>
 </ul>
 
 </div>
 <div class="step slide" data-rel-x="0" data-rel-y="1200">
 
-<h1>Get Prepared</h1>
+<h1>Flight Plan</h1>
 <div id="prep">
   <div>
-    <h2>Cryptofex IDE</h2>
-    <a href="https://cryptofex.io/download/">https://cryptofex.io/download/</a>
-
-    <h2>RChain node (RNode)</h2><a href="https://github.com/rchain/rchain/releases/tag/v0.6.4">https://github.com/rchain/rchain/releases/tag/v0.6.4</a>
-
-    <h2>Rchain.cloud</h2>
-    <p>Main site: <a href="https://rchain.cloud">https://rchain.cloud</a></p>
-    <p>Mirror: <a href="rchaincloud.inblock.io">rchaincloud.inblock.io</a></p>
-    <p>Host your own: <a href="https://youtu.be/_Jzl9WqfMrQ">https://youtu.be/_Jzl9WqfMrQ</a></p>
+    <ul>
+      <li>What is Blockchain</li>
+      <li>Start our blockchain</li>
+      <li>Remove a runtime module</li>
+      <li>Add a module</li>
+      <li>Write PoE module</li>
+    </ul>
   </div>
 
   <div>
-    <h2>Follow These Slides:</h2>
-    <img style="margin-left: 120px;" src="images/theseSlides.png" />
+    <figure>
+      <img style="margin-left: 120px;" src="images/slidesQr.png" />
+      <figcaption>
+        <a href="https://joshorndorff.github.io/RustBeltRust-2019">https://bit.ly/2pmVyls</a>
+      </figcaption>
+    </figure>
 
-     <p><a href="https://joshorndorff.github.io/SFBlockchainWeek-Presentation/index.html">https://joshorndorff.github.io/SFBlockchainWeek-Presentation/index.html</a></p>
   </div>
 </div>
 
-
-
-
 </div>
-<div class="step slide markdown" data-rel-x="0" data-rel-y="1200">
 
-# Tentative Plan
-
-* 3:00 Setup, Intro, RChain Platform
-* 3:30 Rholang Fundamentals
-* 4:00 Rholang Exercises and Practice
-* 4:30 Full Dapp Demos and Lab Time
-
-Bottom line: Your agenda is my agenda
-
-</div>
 <div class="step slide" data-rel-x="0" data-rel-y="1200">
 
 <h1>RChain Value Adds</h1>
@@ -253,7 +233,7 @@ Like group learning? Come to my office hours!
 
 </div>
 
-<div id="conference-branding"><img class="right" src="images/BlockChainWeekBranding.png" /></div>
+<div id="conference-branding"><img class="right" src="images/RBRBranding.png" /></div>
 <div id="impress-help"></div>
 
 
