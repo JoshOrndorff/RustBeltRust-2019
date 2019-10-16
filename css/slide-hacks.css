@@ -1,3 +1,12 @@
+#prep {
+  display: flex;
+}
+
+#prep div {
+  margin: 5px;
+}
+
+/******************************/
 
 #value-adds {
   display: flex;
