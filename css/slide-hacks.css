@@ -8,9 +8,17 @@
 
 #title-slide ul {
   position: absolute;
-  left: 400px;
-  top: 550px;
   list-style-type: none;
+}
+
+#title-slide #first {
+  top: 550px;
+  left: 350px;
+}
+
+#title-slide #second {
+  top: 575px;
+  left: 700px;
 }
 
 
@@ -96,7 +104,19 @@
 
 /******************************/
 
-#keygen {
+#keygen img {
+  width: 800px;
+}
+
+/******************************/
+
+#join pre {
+  font-size: 300%;
+}
+
+/******************************/
+
+#join {
 
 }
 
@@ -108,8 +128,8 @@
 
 /******************************/
 
-#upgrade {
-
+#upgrade img {
+  width: 1000px;
 }
 
 /******************************/
