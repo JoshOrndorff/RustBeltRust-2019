@@ -84,14 +84,62 @@
 }
 
 /******************************/
-/* Compilation */
+#compilation {
+
+}
 
 /******************************/
 
-/* Like Git */
+#like-git {
+
+}
 
 /******************************/
 
-/* key gen */
+#keygen {
+
+}
 
 /******************************/
+
+#add-module {
+
+}
+
+/******************************/
+
+#upgrade {
+
+}
+
+/******************************/
+
+#remove-module {
+
+}
+
+/******************************/
+
+#poe {
+
+}
+
+/******************************/
+/* The two parting slides share some styling */
+.parting {
+  font-size: 250%;
+}
+
+.parting h1 {
+  position: relative;
+  right: 5%;
+  top: 30%;
+}
+
+.parting p {
+  display: block;
+  width: 50%;
+  position: absolute;
+  bottom: 22%;
+  left: 30%;
+}
