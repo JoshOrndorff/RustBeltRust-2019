@@ -98,8 +98,21 @@
 
 /******************************/
 
-#like-git {
+#like-git h1 {
+  position: relative;
+  right: 10%;
+}
 
+#like-git #blocks {
+  position: absolute;
+  bottom: 10%;
+}
+
+#like-git #chain {
+  height: 100%;
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
 }
 
 /******************************/
@@ -111,13 +124,12 @@
 /******************************/
 
 #join pre {
+  margin: 0;
   font-size: 300%;
 }
 
-/******************************/
-
-#join {
-
+#join img {
+  width: 90%;
 }
 
 /******************************/
