@@ -25,10 +25,10 @@
 
 <div id="impress" data-transition-duration="1000">
 
-<div class="step slide" data-rel-x="0" data-rel-y="1200">
+<div class="step" id="title-slide" data-rel-x="0" data-rel-y="1200">
 
-<h1>Write a Blockchain with Substrate</h1>
-<img class="right" src="images/SubstrateLogo.png" />
+<h1>Write a Blockchain Runtime with Parity Substrate</h1>
+<div class="pink-box"></div>
 <ul>
   <li>Joshy Orndorff</li>
   <li>Parity Technologies</li>
@@ -36,101 +36,105 @@
 </ul>
 
 </div>
-<div class="step slide" data-rel-x="0" data-rel-y="1200">
+
+
+<div class="step slide" id="flight-plan" data-rel-x="0" data-rel-y="1200">
 
 <h1>Flight Plan</h1>
-<div id="prep">
-  <div>
-    <ul>
-      <li>What is Blockchain</li>
-      <li>Start our blockchain</li>
-      <li>Remove a runtime module</li>
-      <li>Add a module</li>
-      <li>Write PoE module</li>
-    </ul>
-  </div>
+  <ul>
+    <li>Play with a Web App</li>
+    <li>Is that Blockchain!?</li>
+    <li>Decentralize our App</li>
+    <li>Add a Module</li>
+    <li>Forks and Upgrades</li>
+    <li>Remove a Module</li>
+    <li>Governance Patterns</li>
+    <li>Write a custom module</li>
+  </ul>
 
-  <div>
-    <figure>
-      <img style="margin-left: 120px;" src="images/slidesQr.png" />
-      <figcaption>
-        <a href="https://joshorndorff.github.io/RustBeltRust-2019">https://bit.ly/2pmVyls</a>
-      </figcaption>
-    </figure>
-
-  </div>
+  <img src="images/slidesQr.png" />
+  <a href="https://joshorndorff.github.io/RustBeltRust-2019">https://bit.ly/2pmVyls</a>
 </div>
 
+<div class="step slide" id="web-app" data-rel-x="0" data-rel-y="1200">
+
+<h1>Play with a Web App</h1>
+  <h2>Try the <a href="https://bootnodes.net/substrate-front-end-template">hosted frontend</a></h2>
+
+  <ul>
+    <li>Template for rapid UI development</li>
+    <li>Github project <a href="https://github.com/substrate-developer-hub/substrate-front-end-template/">https://github.com/substrate-developer-hub/substrate-front-end-template/</a></li>
+  </ul>
+
+  <h2>Apps: A Multimeter for Substrate</h2>
+  <ul>
+    <li>Hosted at <a href="https://polkadot.js.org/apps/">https://polkadot.js.org/apps/</a></li>
+    <li>Github project <a href="https://github.com/polkadot-js/apps">https://github.com/polkadot-js/apps</a></li>
+  </ul>
+
+  <img src="images/multimeter.png" />
+</div>
+
+
+<div class="step slide network-diagram" id="centralized-substrate" data-rel-x="0" data-rel-y="1200">
+
+  <h1>Is that Blockchain!?</h1>
+  <img src="images/centralized-substrate.png" />
+
+</div>
+
+<div class="step slide network-diagram" id="centralized-facebook" data-rel-x="0" data-rel-y="0">
+  <h1>Is that Blockchain!?</h1>
+  <img src="images/centralized-facebook.png" />
+</div>
+
+<div class="step slide network-diagram" id="centralized-amazon" data-rel-x="0" data-rel-y="0">
+  <h1>Is that Blockchain!?</h1>
+  <img src="images/centralized-amazon.png" />
+</div>
+
+
+<div class="step slide" id="decentralize" data-rel-x="0" data-rel-y="1200">
+  <h1>Decentralize our App</h1>
+  <img src="images/decentralized-substrate.png" />
+  <ul>
+    <li>Why Decentralize
+      <ul>
+        <li>Immutability</li>
+        <li>Censorship Resistance</li>
+        <li>Verifiable</li>
+        <li>Resiliant</li>
+      </ul>
+    <li>Compile the <a href="https://github.com/substrate-developer-hub/substrate-node-template">substrate-node-template</a></li>
+    <li>Roughly following <a href="https://substrate.dev/docs/en/next/tutorials/start-a-private-network-with-substrate">this tutorial</a></li>
+  </ul>
+</div>
+
+
+<div class="step slide" id="compilation" data-rel-x="0" data-rel-y="1200">
+<h1>Compilation Steps</h1>
+install dependencies
+install rustup
+scripts/init.sh
+cargo build --release
 </div>
 
 <div class="step slide" data-rel-x="0" data-rel-y="1200">
-
-<h1>RChain Value Adds</h1>
-  <div id="value-adds">
-    <figure class="value-add">
-      <img src="images/concurrency.jpg" />
-      <figcaption>Concurrency</figcaption>
-    </figure>
-    <figure class="value-add">
-      <img src="images/qed.png" />
-      <figcaption>Correct By Construction</figcaption>
-    </figure>
-    <figure class="value-add">
-      <img src="images/casper.jpg" />
-      <figcaption>Proof of Stake</figcaption>
-    </figure>
-  </div>
+<h1>Blockchain is like Git</h1>
+<p>In the meantime, let's talk about how blockchain works.</p>
+<p>Problem: Social coordination</p>
+<p>Solution:
+  <ul>
+    <li>Social Contract</li>
+    <li>Shared History</li>
+  </ul>
+</p>
 </div>
 
-
-<div class="step slide" data-rel-x="0" data-rel-y="1200">
-
-  <h1>The Rho VM</h1>
-  <div id="rho-vm">
-    <div id="building-blocks">
-      <h2>BuildingBlocks</h2>
-      <img src="images/buildingBlocks.png" />
-    </div>
-    <div id="sends">
-      <h2>Sends</h2>
-      <img src="images/send.png" />
-    </div>
-    <div id="receives">
-      <h2>Receives</h2>
-      <img src="images/receive.png" />
-    </div>
-
-  </div>
-
-</div>
-<div class="step slide" data-rel-x="0" data-rel-y="1200">
-  <h1>Tuplespace Semantics</h1>
-
-  <div id="tuplespace-semantics">
-    <div class="semantic">
-      <h2>Tuplespace</h2>
-      <img src="images/send.png" />
-      <img src="images/send.png" />
-      <img src="images/send.png" />
-      <img src="images/receive.png" />
-      <img src="images/receive.png" />
-    </div>
-    <div class="semantic">
-      <h2>Process Pool</h2>
-      <img src="images/process.png" />
-      <img src="images/process.png" />
-      <img src="images/process.png" />
-    </div>
-
-  </div>
-
-</div>
-<div class="step slide" data-rel-x="0" data-rel-y="1200">
-
-<h1>Rholang Syntax</h1>
-Rholang expresses the Rho VM plus <del>some</del> several conveniences.
-<img class="full" src="images/cheatSheet.png" style="height: 600px;" />
-
+<div class="step slide" id="keygen" data-rel-x="0" data-rel-y="1200">
+<h1>Let's generate some keys</h1>
+<button id="generate">Generate</button>
+<textarea id="output"></textarea>
 </div>
 
 <div class="step slide" data-rel-x="0" data-rel-y="1200">
@@ -251,5 +255,16 @@ Like group learning? Come to my office hours!
 -->
 <script type="text/javascript" src="impress.js/js/impress.js"></script>
 <script>impress().init();</script>
+
+<!--
+My own addition to get the key generation working.
+-->
+<script type="text/javascript" src="keygen-bundle.js"></script>
+<script type="text/javascript">
+  console.log(util); //TODO delete this debugging line
+  document.getElementById("generate").addEventListener("click", () => {
+    alert("clicked");
+  });
+</script>
 </body>
 </html>

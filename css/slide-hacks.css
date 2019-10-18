@@ -1,57 +1,97 @@
-#prep {
-  display: flex;
+#title-slide h1 {
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  width: 800px;
+
 }
 
-#prep div {
-  margin: 5px;
+#title-slide ul {
+  position: absolute;
+  left: 400px;
+  top: 550px;
+  list-style-type: none;
 }
+
 
 /******************************/
 
-#value-adds {
-  display: flex;
+#flight-plan ul {
+  position: relative;
+  left: 7%;
 }
 
-.value-add {
-  margin: 5px;
+#flight-plan img {
+  position: absolute;
+  width: 40%;
+  right: 5%;
+  top: 18%;
 }
 
-.value-add img {
-  border-radius: 20px;
+#flight-plan a {
+  position: relative;
+  top: 10%;
+  left: 25%;
+  font-size: 200%;
 }
 
-figcaption {
-  text-align: center;
-}
+
 
 /******************************/
 
-#rho-vm {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#building-blocks {
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-#sends {
-
-}
-
-#receives {
-
+#web-app img{
+  width: 200px;
+  position: absolute;
+  right: 20%;
+  bottom: 0;
 }
 
 /******************************/
-
-#tuplespace-semantics {
-  display: flex;
+/* All network diagram slides, share this styling */
+.network-diagram img {
+  position: relative;
+  width: 50%;
+  left: 25%;
 }
 
-.semantic {
-  border: 1px solid black;
-  border-radius: 5px;
-  margin: 5px;
+.impress-on-web-app #centralized-facebook,
+.impress-on-web-app #centralized-amazon,
+.impress-on-centralized-substrate #centralized-facebook,
+.impress-on-centralized-substrate #centralized-amazon,
+.impress-on-centralized-facebook #centralized-substrate,
+.impress-on-centralized-facebook #centralized-amazon,
+.impress-on-centralized-amazon #centralized-substrate,
+.impress-on-centralized-amazon #centralized-facebook {
+  display: none;
 }
+
+/******************************/
+#decentralize h1 {
+  position: relative;
+  right: 25%;
+  top: 10%;
+}
+#decentralize img {
+  position: absolute;
+  width: 50%;
+  right: 1%;
+  top: 15%;
+}
+#decentralize>ul {
+
+  position: absolute;
+  bottom: 15%;
+}
+
+/******************************/
+/* Compilation */
+
+/******************************/
+
+/* Like Git */
+
+/******************************/
+
+/* key gen */
+
+/******************************/
